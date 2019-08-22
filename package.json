@@ -1,9 +1,9 @@
 {
-  "name": "zalando-tech-radar",
-  "version": "2018.5.0",
-  "description": "Visualizing our technology choices",
-  "homepage": "https://github.com/zalando/tech-radar#readme",
-  "repository": "https://github.com/zalando/tech-radar.git",
+  "name": "goomer-tech-radar",
+  "version": "2019.9.0",
+  "description": "A visualization of our tech decisions and knowledge.",
+  "homepage": "https://github.com/goomerdev/tech-radar#readme",
+  "repository": "https://github.com/goomerdev/tech-radar.git",
   "license": "MIT",
   "directories": {
     "doc": "docs"
