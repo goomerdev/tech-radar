@@ -3,10 +3,11 @@
 <head>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 <title>Goomer Tech Radar</title>
-<link rel="shortcut icon" href="https://www.zalando.de/favicon.ico">
+<link rel="shortcut icon" href="/favicon.ico">
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="radar.js"></script>
+<script src="entries.js"></script>
 
 <link rel="stylesheet" href="radar.css">
 </head>
@@ -40,285 +41,7 @@ radar_visualization({
   ],
   print_layout: true,
   // zoomed_quadrant: 0,
-  //ENTRIES
-  entries: [
-      {
-        quadrant: 3,
-        ring: 0,
-        label: "AWS RDS",
-        active: true,
-        moved: 1
-      },
-      {
-        quadrant: 3,
-        ring: 0,
-        label: "PostgreSQL",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 3,
-        ring: 0,
-        label: "Redis",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 3,
-        ring: 0,
-        label: "AWS S3",
-        active: true,
-        moved: 1
-      },
-      {
-        quadrant: 3,
-        ring: 1,
-        label: "AWS ElastiCache",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 3,
-        ring: 1,
-        label: "SQLite",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 3,
-        ring: 2,
-        label: "MongoDB",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 3,
-        ring: 2,
-        label: "MongoDB Atlas",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 3,
-        ring: 3,
-        label: "Elasticsearch",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 3,
-        ring: 3,
-        label: "AWS DynamoDB",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 3,
-        ring: 3,
-        label: "Memcached",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 2,
-        ring: 0,
-        label: "Node.js",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 2,
-        ring: 0,
-        label: "React",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 2,
-        ring: 0,
-        label: "Express (Node.js)",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 2,
-        ring: 0,
-        label: "Redux",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 2,
-        ring: 1,
-        label: "Ant Design",
-        active: true,
-        moved: 1
-      },
-      {
-        quadrant: 2,
-        ring: 1,
-        label: "Echo (Go)",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 2,
-        ring: 2,
-        label: "d3.js",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 2,
-        ring: 3,
-        label: "Laravel",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 1,
-        ring: 0,
-        label: "AWS Beanstalk",
-        active: true,
-        moved: 1
-      },
-      {
-        quadrant: 1,
-        ring: 0,
-        label: "Jenkins",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 1,
-        ring: 0,
-        label: "Nginx",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 1,
-        ring: 1,
-        label: "Docker",
-        active: true,
-        moved: -1
-      },
-      {
-        quadrant: 1,
-        ring: 1,
-        label: "Prometheus",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 1,
-        ring: 1,
-        label: "Grafana",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 1,
-        ring: 1,
-        label: "Sentry",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 1,
-        ring: 1,
-        label: "LocalStack",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 1,
-        ring: 2,
-        label: "AWS Lambda",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 1,
-        ring: 2,
-        label: "Terraform",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 1,
-        ring: 2,
-        label: "Traefik",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 1,
-        ring: 3,
-        label: "Kubernetes",
-        active: true,
-        moved: -1
-      },
-      {
-        quadrant: 0,
-        ring: 0,
-        label: "Java",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 0,
-        ring: 0,
-        label: "JavaScript",
-        active: true,
-        link: "javascript.html",
-        moved: 0
-      },
-      {
-        quadrant: 0,
-        ring: 0,
-        label: "OpenAPI (Swagger)",
-        active: true,
-        link: "openapi_swagger.html",
-        moved: 1
-      },
-      {
-        quadrant: 0,
-        ring: 1,
-        label: "Go",
-        active: true,
-        moved: 1
-      },
-      {
-        quadrant: 0,
-        ring: 2,
-        label: "Python",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 0,
-        ring: 2,
-        label: "Kotlin",
-        active: true,
-        moved: 0
-      },
-      {
-        quadrant: 0,
-        ring: 3,
-        label: "TypeScript",
-        active: true,
-        moved: -1
-      },
-      {
-        quadrant: 0,
-        ring: 3,
-        label: "PHP",
-        active: true,
-        moved: 0
-      },
-  ]
-  //ENTRIES
+  entries: entries(),
 });
 </script>
 
@@ -344,19 +67,17 @@ The Goomer Tech Radar is a list of technologies, complemented by an assessment r
 <h3>What is the purpose?</h3>
 
 <p>
-The Tech Radar is a tool to inspire and support engineering teams at Goomer to pick the best technologies for new projects; it provides a platform to share knowledge and experience in technologies, to reflect on technology decisions and continuously evolve our technology landscape. Based on the <a href="https://www.thoughtworks.com/radar">pioneering work of ThoughtWorks</a>, our Tech Radar sets out the changes in technologies that are interesting in software development &mdash; changes that we think our engineering teams should pay attention to and consider using in their projects.
+The Tech Radar is a tool to inspire and support engineering teams at Goomer to pick the best 
+technologies for new projects; it provides a platform to share knowledge and experience in 
+technologies, to reflect on technology decisions and continuously evolve our technology landscape.
+Based on the <a href="https://www.thoughtworks.com/radar">pioneering work of ThoughtWorks</a>, our
+Tech Radar sets out the changes in technologies that are interesting in software development &mdash;
+changes that we think our engineering teams should pay attention to and consider using in their
+projects. This page is heavily based on <a href="https://opensource.zalando.com/tech-radar/">
+Zalando Tech Radar</a>.
 </p>
 </td></tr>
 </table>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-105375141-2', 'auto');
-  ga('send', 'pageview');
-</script>
 
 </body>
 </html>
